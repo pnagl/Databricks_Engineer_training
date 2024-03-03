@@ -42,6 +42,10 @@
 
 -- COMMAND ----------
 
+--PNA TEST NEW VERSUIN OF NOTEBIIK
+
+-- COMMAND ----------
+
 -- MAGIC %run ./Includes/Classroom-Setup-02.4
 
 -- COMMAND ----------

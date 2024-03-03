@@ -61,6 +61,20 @@
 
 # COMMAND ----------
 
+#PNA
+(
+spark.table("products")
+     .select("name","price")
+     .withColumnRenamed("price","price2")
+     #.withColumn(1+2,"s")
+     .where("price<= 200")
+     .orderBy("price")
+     .display()
+
+)
+
+# COMMAND ----------
+
 # DBTITLE 0,--i18n-58f7e711-13f5-4015-8cff-c18ec5b305c6
 # MAGIC %md
 # MAGIC

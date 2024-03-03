@@ -98,7 +98,8 @@ DESCRIBE SCHEMA EXTENDED ${da.schema_name}_default_location;
 
 --pna
 
-use pavol_nagl_yyuo_da_delp_default_location;
+--use pavol_nagl_yyuo_da_delp_default_location;
+use pnagl_g831_da_delp
 
 create or replace table pna_managed_table (width INT, length INT, height INT);
 insert into pna_managed_table values (3,2,1);

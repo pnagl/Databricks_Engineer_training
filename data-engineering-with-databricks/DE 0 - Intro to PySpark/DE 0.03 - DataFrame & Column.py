@@ -192,6 +192,10 @@ display(anonymous_df)
 
 # COMMAND ----------
 
+
+
+# COMMAND ----------
+
 no_sales_df = events_df.drop(col("ecommerce"))
 display(no_sales_df)
 
